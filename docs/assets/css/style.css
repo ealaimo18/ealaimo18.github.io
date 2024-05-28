@@ -31,10 +31,10 @@
 
 .portfolio-work-page .menu {
   position: absolute;
-  width: 385px;
+  width: 304px;
   height: 20px;
   top: 13px;
-  left: 735px;
+  left: 816px;
 }
 
 .portfolio-work-page .about {
@@ -42,7 +42,7 @@
   width: 59px;
   height: 20px;
   top: 0;
-  left: 81px;
+  left: 0;
 }
 
 .portfolio-work-page .text-wrapper {
@@ -64,23 +64,15 @@
   width: 77px;
   height: 20px;
   top: 0;
-  left: 308px;
+  left: 226px;
 }
 
-.portfolio-work-page .work {
-  position: absolute;
-  width: 50px;
-  height: 20px;
-  top: 0;
-  left: 0;
-}
-
-.portfolio-work-page .playground {
+.portfolio-work-page .projects {
   position: absolute;
   width: 104px;
   height: 20px;
   top: 0;
-  left: 172px;
+  left: 110px;
 }
 
 .portfolio-work-page .section {
@@ -101,7 +93,7 @@
 
 .portfolio-work-page .text-wrapper-2 {
   position: absolute;
-  width: 360px;
+  width: 395px;
   top: 0;
   left: 0;
   font-family: var(--heading-1-font-family);
@@ -121,38 +113,18 @@
   left: 0;
 }
 
-.portfolio-work-page .a-senior-year-design {
+.portfolio-work-page .a-recent-computer {
   position: absolute;
   width: 580px;
   top: 64px;
   left: 476px;
   font-family: var(--heading-2-font-family);
   font-weight: var(--heading-2-font-weight);
-  color: transparent;
-  font-size: var(--heading-2-font-size);
-  letter-spacing: var(--heading-2-letter-spacing);
-  line-height: var(--heading-2-line-height);
-  font-style: var(--heading-2-font-style);
-}
-
-.portfolio-work-page .span {
   color: #606060;
-  letter-spacing: var(--heading-2-letter-spacing);
-  font-family: var(--heading-2-font-family);
-  font-style: var(--heading-2-font-style);
-  font-weight: var(--heading-2-font-weight);
-  line-height: var(--heading-2-line-height);
   font-size: var(--heading-2-font-size);
-}
-
-.portfolio-work-page .text-wrapper-3 {
-  color: #000000;
   letter-spacing: var(--heading-2-letter-spacing);
-  font-family: var(--heading-2-font-family);
-  font-style: var(--heading-2-font-style);
-  font-weight: var(--heading-2-font-weight);
   line-height: var(--heading-2-line-height);
-  font-size: var(--heading-2-font-size);
+  font-style: var(--heading-2-font-style);
 }
 
 .portfolio-work-page .body {
@@ -163,7 +135,7 @@
   left: 0;
 }
 
-.portfolio-work-page .text-wrapper-4 {
+.portfolio-work-page .text-wrapper-3 {
   position: absolute;
   width: 326px;
   top: -1px;
@@ -185,7 +157,7 @@
   left: 0;
 }
 
-.portfolio-work-page .p {
+.portfolio-work-page .goblin-concept {
   position: absolute;
   width: 356px;
   top: 0;
@@ -198,7 +170,7 @@
   line-height: 21.9px;
 }
 
-.portfolio-work-page .text-wrapper-5 {
+.portfolio-work-page .sculpted-in-zbrush {
   position: absolute;
   width: 315px;
   top: 101px;
@@ -252,7 +224,7 @@
   left: 0;
 }
 
-.portfolio-work-page .text-wrapper-6 {
+.portfolio-work-page .p {
   position: absolute;
   width: 356px;
   top: 43px;
@@ -282,22 +254,6 @@
   left: 0;
 }
 
-.portfolio-work-page .link-2 {
-  position: absolute;
-  width: 326px;
-  top: 346px;
-  left: 0;
-  font-family: var(--sub-header-link-font-family);
-  font-weight: var(--sub-header-link-font-weight);
-  color: var(--main-gray);
-  font-size: var(--sub-header-link-font-size);
-  letter-spacing: var(--sub-header-link-letter-spacing);
-  line-height: var(--sub-header-link-line-height);
-  text-decoration: underline;
-  white-space: nowrap;
-  font-style: var(--sub-header-link-font-style);
-}
-
 .portfolio-work-page .footer {
   position: absolute;
   width: 1120px;
@@ -307,7 +263,7 @@
   background-color: transparent;
 }
 
-.portfolio-work-page .text-wrapper-7 {
+.portfolio-work-page .text-wrapper-4 {
   position: absolute;
   width: 271px;
   top: -1px;
@@ -322,22 +278,7 @@
   font-style: var(--navigation-font-style);
 }
 
-.portfolio-work-page .text-wrapper-8 {
-  position: absolute;
-  width: 98px;
-  top: -1px;
-  left: 791px;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-
-.portfolio-work-page .text-wrapper-9 {
+.portfolio-work-page .text-wrapper-5 {
   position: absolute;
   width: 98px;
   top: -1px;
@@ -352,366 +293,7 @@
   font-style: var(--navigation-font-style);
 }
 
-.portfolio-work-page .text-wrapper-10 {
-  position: absolute;
-  width: 69px;
-  top: -1px;
-  left: 1051px;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-.portfolio-about-page {
-  background-color: #f3f3f3;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.portfolio-about-page .div {
-  background-color: #f3f3f3;
-  width: 1440px;
-  height: 1844px;
-  position: relative;
-}
-
-.portfolio-about-page .navigation-bar {
-  position: absolute;
-  width: 1120px;
-  height: 35px;
-  top: 102px;
-  left: 160px;
-}
-
-.portfolio-about-page .site-logo {
-  position: absolute;
-  width: 67px;
-  height: 23px;
-  top: 10px;
-  left: 0;
-}
-
-.portfolio-about-page .menu {
-  position: absolute;
-  width: 385px;
-  height: 20px;
-  top: 13px;
-  left: 735px;
-}
-
-.portfolio-about-page .about {
-  position: absolute;
-  width: 59px;
-  height: 20px;
-  top: 0;
-  left: 81px;
-}
-
-.portfolio-about-page .text-wrapper {
-  top: -1px;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  position: absolute;
-  left: 0;
-  font-style: var(--navigation-font-style);
-}
-
-.portfolio-about-page .contact {
-  position: absolute;
-  width: 77px;
-  height: 20px;
-  top: 0;
-  left: 308px;
-}
-
-.portfolio-about-page .work {
-  position: absolute;
-  width: 50px;
-  height: 20px;
-  top: 0;
-  left: 0;
-}
-
-.portfolio-about-page .playground {
-  position: absolute;
-  width: 104px;
-  height: 20px;
-  top: 0;
-  left: 172px;
-}
-
-.portfolio-about-page .section {
-  position: absolute;
-  width: 1120px;
-  height: 1242px;
-  top: 360px;
-  left: 160px;
-}
-
-.portfolio-about-page .about-2 {
-  width: 1124px;
-  height: 590px;
-  top: 0;
-  position: absolute;
-  left: 0;
-}
-
-.portfolio-about-page .hi-i-m-mehmet-akif {
-  position: absolute;
-  width: 480px;
-  top: 0;
-  left: 0;
-  font-family: var(--heading-1-font-family);
-  font-weight: var(--heading-1-font-weight);
-  color: var(--main-black);
-  font-size: var(--heading-1-font-size);
-  letter-spacing: var(--heading-1-letter-spacing);
-  line-height: var(--heading-1-line-height);
-  font-style: var(--heading-1-font-style);
-}
-
-.portfolio-about-page .my-work-is-mainly {
-  position: absolute;
-  width: 575px;
-  top: 231px;
-  left: 0;
-  font-family: var(--heading-2-font-family);
-  font-weight: var(--heading-2-font-weight);
-  color: var(--main-gray);
-  font-size: var(--heading-2-font-size);
-  letter-spacing: var(--heading-2-letter-spacing);
-  line-height: var(--heading-2-line-height);
-  font-style: var(--heading-2-font-style);
-}
-
-.portfolio-about-page .profile-photo {
-  position: absolute;
-  width: 421px;
-  height: 590px;
-  top: 0;
-  left: 699px;
-}
-
-.portfolio-about-page .contact-2 {
-  position: absolute;
-  width: 1126px;
-  height: 166px;
-  top: 1076px;
-  left: 0;
-}
-
-.portfolio-about-page .overlap-group {
-  position: absolute;
-  width: 347px;
-  height: 71px;
-  top: 73px;
-  left: 0;
-}
-
-.portfolio-about-page .p {
-  position: absolute;
-  width: 347px;
-  top: 0;
-  left: 0;
-  font-family: var(--heading-2-font-family);
-  font-weight: var(--heading-2-font-weight);
-  color: var(--main-black);
-  font-size: var(--heading-2-font-size);
-  letter-spacing: var(--heading-2-letter-spacing);
-  line-height: var(--heading-2-line-height);
-  font-style: var(--heading-2-font-style);
-}
-
-.portfolio-about-page .image {
-  position: absolute;
-  width: 24px;
-  height: 21px;
-  top: 46px;
-  left: 259px;
-}
-
-.portfolio-about-page .seperator {
-  position: absolute;
-  width: 1120px;
-  height: 2px;
-  top: 0;
-  left: 0;
-}
-
-.portfolio-about-page .text-wrapper-2 {
-  position: absolute;
-  top: 80px;
-  left: 669px;
-  font-family: var(--heading-2-font-family);
-  font-weight: var(--heading-2-font-weight);
-  color: var(--main-black);
-  font-size: var(--heading-2-font-size);
-  letter-spacing: var(--heading-2-letter-spacing);
-  line-height: var(--heading-2-line-height);
-  white-space: nowrap;
-  font-style: var(--heading-2-font-style);
-}
-
-.portfolio-about-page .text-wrapper-3 {
-  position: absolute;
-  top: 144px;
-  left: 669px;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--main-black);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  white-space: nowrap;
-  font-style: var(--body-font-style);
-}
-
-.portfolio-about-page .info {
-  position: absolute;
-  width: 633px;
-  height: 216px;
-  top: 726px;
-  left: 0;
-}
-
-.portfolio-about-page .text-wrapper-4 {
-  position: absolute;
-  width: 401px;
-  top: 172px;
-  left: 187px;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--main-black);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.portfolio-about-page .text-wrapper-5 {
-  top: 3px;
-  position: absolute;
-  width: 124px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: var(--main-black);
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  line-height: 21.9px;
-  text-decoration: underline;
-  white-space: nowrap;
-}
-
-.portfolio-about-page .text-wrapper-6 {
-  top: 175px;
-  position: absolute;
-  width: 124px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: var(--main-black);
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  line-height: 21.9px;
-  text-decoration: underline;
-  white-space: nowrap;
-}
-
-.portfolio-about-page .text-wrapper-7 {
-  position: absolute;
-  width: 436px;
-  top: 0;
-  left: 187px;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--main-black);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.portfolio-about-page .text-wrapper-8 {
-  position: absolute;
-  top: 78px;
-  left: 188px;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--main-black);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  white-space: nowrap;
-  font-style: var(--body-font-style);
-}
-
-.portfolio-about-page .footer {
-  position: absolute;
-  width: 1120px;
-  height: 20px;
-  top: 1772px;
-  left: 160px;
-  background-color: transparent;
-}
-
-.portfolio-about-page .text-wrapper-9 {
-  position: absolute;
-  width: 271px;
-  top: -1px;
-  left: 0;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--secondary);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-
-.portfolio-about-page .text-wrapper-10 {
-  position: absolute;
-  width: 98px;
-  top: -1px;
-  left: 791px;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-
-.portfolio-about-page .text-wrapper-11 {
-  position: absolute;
-  width: 98px;
-  top: -1px;
-  left: 921px;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-
-.portfolio-about-page .text-wrapper-12 {
+.portfolio-work-page .text-wrapper-6 {
   position: absolute;
   width: 69px;
   top: -1px;
