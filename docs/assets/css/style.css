@@ -644,47 +644,57 @@
   font-style: var(--navigation-font-style);
 }
 .portfolio-contact {
-  background-color: #f3f3f3; display: flex;
+  background-color: #f3f3f3;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
-.portfolio-contact .div { 
-  background-color: #f3f3f3; 
-  width: 1527px; height: 918px;
+
+.portfolio-contact .div {
+  background-color: #f3f3f3;
+  width: 1527px;
+  height: 918px;
   position: relative;
 }
-.portfolio-contact .navigation-bar{
+
+.portfolio-contact .navigation-bar {
   position: absolute;
   width: 1120px;
   height: 35px;
   top: 102px;
   left: 204px;
 }
-.portfolio-contact.site-logo { 
+
+.portfolio-contact .site-logo {
   position: absolute;
   width: 67px;
   height: 23px;
   top: 10px;
-  left:0;
+  left: 0;
 }
-.portfolio-contact menu {
+
+.portfolio-contact .menu {
   position: absolute;
-  width: 304px; height: 20px;
+  width: 304px;
+  height: 20px;
   top: 13px;
   left: 816px;
-  }
-  .portfolio-contact .about {
+}
+
+.portfolio-contact .about {
   position: absolute;
   width: 59px;
   height: 20px;
-  top: 0; left: 0;
-  }
-  .portfolio-contact .text-wrapper {
+  top: 0;
+  left: 0;
+}
+
+.portfolio-contact .text-wrapper {
   position: absolute;
   top: -1px;
   left: 0;
-  font-family: var (--navigation-font-family); 
+  font-family: var(--navigation-font-family);
   font-weight: var(--navigation-font-weight);
   color: var(--main-black);
   font-size: var(--navigation-font-size);
@@ -692,75 +702,92 @@
   line-height: var(--navigation-line-height);
   white-space: nowrap;
   font-style: var(--navigation-font-style);
-  }
-  .portfolio-contact .contact {
-    position: absolute;
-    width: 77px;
-    height: 20px;
-    top: 0;
-    left: 226px;
-  }
-  .portfolio-contact .projects { 
-    position: absolute;
-    width: 104px; height: 20px;
-    top: 0;
-    left: 110px;
-  }
-  .portfolio-contact .frame { 
-    position: absolute;
-    width: 1056px;
-    height: 73px;
-    top: 311px;
-    left: 204px;
-  }
-  .portfolio-contact .div-wrapper { 
-    position: absolute;
-    width: 577px;
-    height: 117px;
-    top: 0;
-  }
-  .portfolio-contact .p { 
-    position: absolute;
-    width: 575px;
-    top: 0; 
-    left: 0;
-    font-family: var(--heading-1-font-family); font-weight: (var --heading-1-font-weight);
-    color: var(--main-black);
-    font-size: var(--heading-1-font-size);
-    letter-spacing: var(--heading-1-letter-spacing);
-    line-height: var(--heading-1-line-height); font-style: var(--heading-1-font-style);
-  }
+}
+
+.portfolio-contact .contact {
+  position: absolute;
+  width: 77px;
+  height: 20px;
+  top: 0;
+  left: 226px;
+}
+
+.portfolio-contact .projects {
+  position: absolute;
+  width: 104px;
+  height: 20px;
+  top: 0;
+  left: 110px;
+}
+
+.portfolio-contact .frame {
+  position: absolute;
+  width: 1056px;
+  height: 73px;
+  top: 311px;
+  left: 204px;
+}
+
+.portfolio-contact .div-wrapper {
+  position: absolute;
+  width: 577px;
+  height: 117px;
+  top: 0;
+  left: -32px;
+}
+
+.portfolio-contact .p {
+  position: absolute;
+  width: 575px;
+  top: 0;
+  left: 0;
+  font-family: var(--heading-1-font-family);
+  font-weight: var(--heading-1-font-weight);
+  color: var(--main-black);
+  font-size: var(--heading-1-font-size);
+  letter-spacing: var(--heading-1-letter-spacing);
+  line-height: var(--heading-1-line-height);
+  font-style: var(--heading-1-font-style);
+}
+
 .portfolio-contact .seperator {
   position: absolute;
-width: 1120px;
-height: 2px;
-top: 478px;
-left: -32px;
+  width: 1120px;
+  height: 2px;
+  top: 478px;
+  left: -32px;
 }
-.portfolio-contact group {
-position: absolute;
-width: 347px; height: 37px;
-top: 353px;
-left: -32px;
+
+.portfolio-contact .group {
+  position: absolute;
+  width: 347px;
+  height: 37px;
+  top: 353px;
+  left: -32px;
 }
-.portfolio-contact image {
-position: absolute;
-width: 21px;
-height: 24px;
-top: 5px; left: 0;
+
+.portfolio-contact .image {
+  position: absolute;
+  width: 21px;
+  height: 24px;
+  top: 5px;
+  left: 0;
 }
+
 .portfolio-contact .text-wrapper-2 {
-position: absolute;
-top: 0;
-left: 35px;
-font-family: var(--heading-2-font-family); font-weight: var(--heading-2-font-weight);
-color: var(--main-black);
-font-size: var(--heading-2-font-size);
-letter-spacing: var(--heading-2-letter-spacing);
-line-height: var(--heading-2-line-height);
-white-space: nowrap;
-font-style: var(--heading-2-font-style);
+  position: absolute;
+  top: 0;
+  left: 35px;
+  font-family: var(--heading-2-font-family);
+  font-weight: var(--heading-2-font-weight);
+  color: var(--main-black);
+  font-size: var(--heading-2-font-size);
+  letter-spacing: var(--heading-2-letter-spacing);
+  line-height: var(--heading-2-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-2-font-style);
 }
+
 .portfolio-contact .footer {
   position: absolute;
   width: 1120px;
@@ -769,96 +796,117 @@ font-style: var(--heading-2-font-style);
   left: 172px;
   background-color: transparent;
 }
-.portfolio-contact .text-wrapper-3 { 
+
+.portfolio-contact .text-wrapper-3 {
   position: absolute;
   width: 271px;
   top: -1px;
   left: 0;
-  font-family: var(--navigation-font-family); font-weight: (var --navigation-font-weight);
+  font-family: var(--navigation-font-family);
+  font-weight: var(--navigation-font-weight);
   color: var(--secondary);
   font-size: var(--navigation-font-size);
-  letter-spacing: (var --navigation-letter-spacing);
+  letter-spacing: var(--navigation-letter-spacing);
   line-height: var(--navigation-line-height);
   white-space: nowrap;
-  font-style: (var --navigation-font-style);
+  font-style: var(--navigation-font-style);
 }
+
 .portfolio-contact .text-wrapper-4 {
   position: absolute;
   width: 98px;
   top: -1px;
   left: 921px;
-  font-family: var(--navigation-font-family); font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: (var --navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-.portfolio-contact .text-wrapper-5 {
-  position: absolute;
-  width: 69px;
-  top: -1px;
-  left: 1051px;
-  font-family: var(--navigation-font-family); font-weight: var(--navigation-font-weight);
+  font-family: var(--navigation-font-family);
+  font-weight: var(--navigation-font-weight);
   color: var(--main-black);
   font-size: var(--navigation-font-size);
   letter-spacing: var(--navigation-letter-spacing);
   line-height: var(--navigation-line-height);
   white-space: nowrap;
   font-style: var(--navigation-font-style);
-  }
-  .portfolio-contact .group-2 {
+}
+
+.portfolio-contact .text-wrapper-5 {
   position: absolute;
-  width: 380px; height: 83px;
+  width: 69px;
+  top: -1px;
+  left: 1051px;
+  font-family: var(--navigation-font-family);
+  font-weight: var(--navigation-font-weight);
+  color: var(--main-black);
+  font-size: var(--navigation-font-size);
+  letter-spacing: var(--navigation-letter-spacing);
+  line-height: var(--navigation-line-height);
+  white-space: nowrap;
+  font-style: var(--navigation-font-style);
+}
+
+.portfolio-contact .group-2 {
+  position: absolute;
+  width: 380px;
+  height: 83px;
   top: 405px;
   left: 172px;
-  }
-  .portfolio-contact .text-wrapper-6{
+}
+
+.portfolio-contact .text-wrapper-6 {
   position: absolute;
   width: 326px;
-  top: 0; left: 0;
-  font-family: "Inter-Medium", Helvetica; font-weight: 500;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
   color: var(--main-black);
   font-size: 18px;
-  letter-spacing: -0.54px; line-height: 21.9px; white-space: nowrap;
-  }
-  .portfolio-contact .text-wrapper-7 { 
-    position: absolute;
-    width: 376px;
-    top: 39px;
-    left: 0;
-    font-family: (var --heading-2-font-family); font-weight: var(--heading-2-font-weight);
-    color: #606060;
-    font-size: var(--heading-2-font-size);
-    letter-spacing: var(--heading-2-letter-spacing);
-    line-height: var(--heading-2-line-height);
-    white-space: nowrap;
-    font-style: var(--heading-2-font-style);
-  }
-  .portfolio-contact .group-3 {
-    position: absolute;
-    width: 330px; height: 90px;
-    top: 526px;
-    left: 112px;
-  }
-  .portfolio-contact .text-wrapper-8 {
-    position: absolute;
-    width: 235px;
-    top: 47px;
-    left: 0;
-    font-family: var(--heading-2-font-family); font-weight: (var --heading-2-font-weight);
-    color: #606060;
-    font-size: var (--heading-2-font-size);
-    letter-spacing: var(--heading-2-letter-spacing);
-    line-height: var (--heading-2-line-height);
-    white-space: nowrap;
-    font-style: var(--heading-2-font-style);
-  }
-  .portfolio-contact .thumbnail {
-    position: absolute;
-    width: 568px;
-    height: 330px;
-    top: 408px; left: 818px;
-    background-color: var(--main-gray);
-    }
+  letter-spacing: -0.54px;
+  line-height: 21.9px;
+  white-space: nowrap;
+}
+
+.portfolio-contact .text-wrapper-7 {
+  position: absolute;
+  width: 376px;
+  top: 39px;
+  left: 0;
+  font-family: var(--heading-2-font-family);
+  font-weight: var(--heading-2-font-weight);
+  color: #606060;
+  font-size: var(--heading-2-font-size);
+  letter-spacing: var(--heading-2-letter-spacing);
+  line-height: var(--heading-2-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-2-font-style);
+}
+
+.portfolio-contact .group-3 {
+  position: absolute;
+  width: 330px;
+  height: 90px;
+  top: 526px;
+  left: 172px;
+}
+
+.portfolio-contact .text-wrapper-8 {
+  position: absolute;
+  width: 235px;
+  top: 47px;
+  left: 0;
+  font-family: var(--heading-2-font-family);
+  font-weight: var(--heading-2-font-weight);
+  color: #606060;
+  font-size: var(--heading-2-font-size);
+  letter-spacing: var(--heading-2-letter-spacing);
+  line-height: var(--heading-2-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-2-font-style);
+}
+
+.portfolio-contact .thumbnail {
+  position: absolute;
+  width: 568px;
+  height: 330px;
+  top: 408px;
+  left: 818px;
+  background-color: var(--main-gray);
+}
