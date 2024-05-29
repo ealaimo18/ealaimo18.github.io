@@ -855,7 +855,7 @@ font-style: var(--heading-2-font-style);
     white-space: nowrap;
     font-style: var(--heading-2-font-style);
   }
-  .portfolio-contact thumbnail {
+  .portfolio-contact .thumbnail {
     position: absolute;
     width: 568px;
     height: 330px;
