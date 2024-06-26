@@ -1,0 +1,636 @@
+.site-logo-icon2 {
+  align-self: stretch;
+  width: 67.5px;
+  position: relative;
+  max-height: 100%;
+  min-height: 23px;
+}
+.projects9 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 57px;
+}
+.projects8 {
+  height: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about5 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 59px;
+  flex-shrink: 0;
+}
+.about4,
+.menu-items2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about4 {
+  height: 20px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-items2 {
+  width: 162.9px;
+  gap: var(--gap-12xs-2);
+}
+.projects11 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 78px;
+}
+.projects10 {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.contact5 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 78px;
+  flex-shrink: 0;
+}
+.contact4,
+.menu-items3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact4 {
+  height: 20px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-items3 {
+  gap: var(--gap-smi-4);
+}
+.content,
+.menu2,
+.navigation-bar2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.menu2 {
+  margin: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-32xl-1);
+  text-align: left;
+  font-size: var(--navigation-size);
+  color: var(--main-black);
+  font-family: var(--heading-2);
+}
+.content,
+.navigation-bar2 {
+  box-sizing: border-box;
+}
+.navigation-bar2 {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-3xs) 0 var(--padding-11xs);
+  gap: var(--gap-xl);
+}
+.content {
+  width: 1158px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 89px;
+}
+.raytheon-drone-competition {
+  margin: 0;
+}
+.raytheon-drone-competition-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 97.2%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.fall-2023-spring {
+  width: 334px;
+  position: relative;
+  font-size: var(--heading-2-size);
+  letter-spacing: -0.03em;
+  line-height: 38px;
+  color: var(--main-gray);
+  display: inline-block;
+  max-width: 100%;
+}
+.project-title {
+  width: 1082px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.icon6 {
+  width: 33.6px;
+  height: 38px;
+  position: relative;
+}
+.blank-line4,
+.senior-capstone-with,
+.the-ugv-was {
+  margin: 0;
+}
+.senior-capstone-with-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 117%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.project-summary {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-28xl);
+  font-size: var(--heading-2-size);
+  color: var(--main-gray);
+}
+.tech-stack {
+  align-self: stretch;
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: -0.03em;
+  line-height: 121.5%;
+  font-weight: 500;
+}
+.tech-stack-title {
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.blank-line5,
+.blank-line6,
+.ros-2-python {
+  margin: 0;
+}
+.raspberry-pi-4b,
+.ros-2-python-container {
+  position: relative;
+  letter-spacing: -0.03em;
+  display: inline-block;
+}
+.ros-2-python-container {
+  align-self: stretch;
+  height: 54px;
+  line-height: 121.5%;
+  flex-shrink: 0;
+}
+.raspberry-pi-4b {
+  line-height: 22px;
+  max-width: 100%;
+}
+.tech-list,
+.tech-stack-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tech-list {
+  flex: 1;
+  flex-direction: column;
+  min-width: 283px;
+}
+.tech-stack-content {
+  width: 623px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-44xl);
+}
+.seperator-frame,
+.seperator3 {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.seperator3 {
+  flex: 1;
+  position: relative;
+  border-top: 1.5px solid var(--main-black);
+}
+.seperator-frame {
+  height: 1.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 6px;
+}
+.tech-stack-container {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-28xl);
+  font-size: var(--sub-header-link-size);
+  font-family: var(--sub-header-link);
+}
+.project-content,
+.project-details,
+.tech-stack-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.project-details {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-28xl);
+}
+.project-content {
+  width: 1123.1px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--heading-1-size);
+  font-family: var(--heading-2);
+}
+.hardwarepng-icon,
+.rospng-icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.rospng-icon {
+  width: 670px;
+  max-height: 100%;
+}
+.hardwarepng-icon {
+  align-self: stretch;
+  height: 566px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hardware-image-container,
+.ros-image-container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hardware-image-container {
+  height: 1025px;
+  width: 498px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -669px;
+}
+.ros-image-container {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  min-width: 435px;
+}
+.blank-line10,
+.blank-line7,
+.blank-line8,
+.blank-line9,
+.four-dc-motors,
+.h-bridges-connect-to,
+.hardware-design,
+.imu-allows-the,
+.onboard-ugv-water {
+  margin: 0;
+}
+.hardware-design-four-container {
+  align-self: stretch;
+  height: 400.7px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 121.5%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.blank-line11,
+.blank-line12,
+.blank-line13,
+.robot-controller-sent,
+.software-design,
+.ugv-was-designed,
+.water-sensor-node {
+  margin: 0;
+}
+.software-design-ugv-container {
+  height: 318.4px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 121.5%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.software-description {
+  width: 528px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.gallery,
+.hardware-description,
+.hardware-design-four-dc-motors-parent,
+.software-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hardware-design-four-dc-motors-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 140px;
+}
+.gallery,
+.hardware-description {
+  box-sizing: border-box;
+}
+.hardware-description {
+  width: 540px;
+  flex-direction: column;
+  padding: var(--padding-18xl-5) 0 0;
+  min-width: 540px;
+}
+.gallery {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 5.5px;
+  gap: var(--gap-lg);
+}
+.competitionpng-icon {
+  height: 365px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 437px;
+}
+.field-testing-and {
+  align-self: stretch;
+  height: 50.1px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 121.5%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.competition-caption,
+.competition-image-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.competition-caption {
+  width: 500px;
+  flex-direction: column;
+  padding: var(--padding-52xl) 0 0;
+  box-sizing: border-box;
+  min-width: 500px;
+}
+.competition-image-container {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-16xl);
+}
+.competition {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 14px 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.competition,
+.main,
+.project-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.project-container {
+  flex: 1;
+  flex-direction: column;
+  gap: 85.5px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--main-black);
+  font-family: var(--sub-header-link);
+}
+.main {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.manue-alaimo2 {
+  margin: 0;
+}
+.manue-alaimo-container2 {
+  width: 270.8px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.github2,
+.linkedin2,
+.manue-alaimo-container2 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.linkedin2 {
+  flex: 1;
+}
+.github2 {
+  display: inline-block;
+  min-width: 69.4px;
+}
+.footer2,
+.social-links2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.social-links2 {
+  width: 199.4px;
+  justify-content: flex-start;
+  gap: var(--gap-12xl-8);
+  color: var(--main-black);
+}
+.footer2 {
+  width: 1120px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.portfolio-project-01-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-83xl) 53px var(--padding-43xl) 141px;
+  box-sizing: border-box;
+  gap: 134px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--navigation-size);
+  color: var(--secondary);
+  font-family: var(--heading-2);
+}
+@media screen and (max-width: 1200px) {
+  .hardware-description {
+    flex: 1;
+  }
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .competition-caption {
+    flex: 1;
+  }
+  .competition-image-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .raytheon-drone-competition-container {
+    font-size: var(--font-size-29xl);
+    line-height: 47px;
+  }
+  .fall-2023-spring,
+  .senior-capstone-with-container {
+    font-size: var(--font-size-7xl);
+    line-height: 30px;
+  }
+  .competition-caption,
+  .hardware-description {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .project-summary {
+    gap: var(--gap-4xl);
+  }
+  .tech-stack-content {
+    gap: var(--gap-12xl);
+  }
+  .project-details,
+  .tech-stack-container {
+    gap: var(--gap-4xl);
+  }
+  .ros-image-container {
+    min-width: 100%;
+  }
+  .hardware-design-four-dc-motors-parent {
+    gap: 70px;
+  }
+  .competitionpng-icon {
+    min-width: 100%;
+  }
+  .competition-image-container {
+    gap: var(--gap-mid);
+  }
+  .project-container {
+    gap: var(--gap-24xl);
+  }
+  .footer2 {
+    flex-wrap: wrap;
+  }
+  .portfolio-project-01-page {
+    gap: 67px;
+    padding-left: var(--padding-51xl);
+    padding-right: 26px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .menu2 {
+    gap: var(--gap-7xl);
+  }
+  .raytheon-drone-competition-container {
+    font-size: var(--font-size-17xl);
+    line-height: 35px;
+  }
+  .fall-2023-spring,
+  .senior-capstone-with-container {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .tech-stack-content {
+    gap: var(--gap-base);
+  }
+  .hardware-design-four-container,
+  .software-design-ugv-container {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .hardware-design-four-dc-motors-parent {
+    gap: var(--gap-16xl);
+  }
+  .field-testing-and {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .project-container {
+    gap: var(--gap-2xl);
+  }
+  .github2,
+  .linkedin2,
+  .manue-alaimo-container2 {
+    font-size: var(--font-size-mid);
+    line-height: 20px;
+  }
+  .portfolio-project-01-page {
+    gap: var(--gap-14xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

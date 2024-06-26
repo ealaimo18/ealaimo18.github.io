@@ -2,64 +2,142 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="/docs/assets/css/globals.css" />
-    <link rel="stylesheet" href="/docs/assets/css/styleguide.css" />
-    <link rel="stylesheet" href="/docs/assets/css/style.css" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="docs/assets/css/global.css" />
+    <link rel="stylesheet" href="docs/assets/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
   </head>
   <body>
     <div class="portfolio-work-page">
-      <div class="div">
+      <header class="navigation-bar-wrapper">
         <div class="navigation-bar">
-          <img class="site-logo" src="/docs/assets/img/site-logo.svg" />
-          <div class="menu">
-            <a href = "about-me.html"><div class="about"><div class="text-wrapper">About</div></div> </a>
-            <a href = "contact-me.html"><div class="contact"><div class="text-wrapper">Contact</div></div></a>
-            <a href = "project-list.html"><div class="projects"><div class="text-wrapper">Projects</div></div></a>
-            <a href = "https://ealaimo18.github.io"><div class="projects-wrapper"><div class="text-wrapper">Home</div></div></a>
-          </div>
-        </div>
-        <div class="overlap">
-          <div class="section">
-            <div class="headline">
-              <div class="text-wrapper-2">Hello, I’m Manue Alaimo.</div>
-              <img class="image" src="/docs/assets/img/image-2.svg" />
-              <p class="a-recent-computer">A recent computer science graduate &amp; software engineer.</p>
-            </div>
-            <div class="body">
-              <p class="element-PROJECT-NAME">02 / Air Quality Monitoring System</p>
-              <p class="p">Internet of Things system fully hosted on Raspberry Pi’s.</p>
-              <div class="link">Discover more →</div>
-              <div class="thumbnail"></div>
-              <img class="seperator" src="/docs/assets/img/seperator.svg" />
-            </div>
-            <div class="body-2">
-              <p class="element-PROJECT-NAME">03 / RL for Building Emissions</p>
-              <p class="p">RL algorithm to train buildings to reduce greenhouse gas emissions.</p>
-              <p class="link">Learn more about this project ↗</p>
-              <img class="seperator" src="/docs/assets/img/image.svg" />
-            </div>
-          </div>
-          <div class="group">
-            <div class="overlap-group">
-              <div class="body-3">
-                <p class="element-PROJECT-NAME">01 / RAYTHEON DRONE COMPETITION</p>
-                <p class="p">
-                  Autonomous Unmanned Ground Vehicle development to be compete in Raytheon’s annual drone competition.
-                </p>
-                <p class="link">Learn more about this project ↗</p>
-                <img class="seperator" src="/docs/assets/img/seperator-2.svg" />
+          <img
+            class="site-logo-icon"
+            loading="lazy"
+            alt=""
+            src="docs/assets/img/sitelogo.svg"/>
+
+          <nav class="menu">
+            <div class="menu-items">
+              <div class="projects">
+                <div class="projects1">Home</div>
               </div>
-              <img class="screenshot" src="/docs/assets/img/screenshot-2024-06-21-at-3-44-17-PM-1.png" />
+              <div class="about">
+                <div class="about1">About</div>
+              </div>
+            </div>
+            <div class="menu-items1">
+              <div class="projects2">
+                <div class="projects3">Projects</div>
+              </div>
+              <div class="contact">
+                <div class="contact1">Contact</div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main class="hero">
+        <section class="hero-content">
+          <h1 class="hello-im-manue-container">
+            <p class="hello-im-manue">Hello, I’m Manue Alaimo.</p>
+          </h1>
+          <div class="description">
+            <h2 class="a-recent-computer">
+              A recent computer science graduate & software engineer.
+            </h2>
+          </div>
+        </section>
+        <section class="parent">
+          <img class="icon" loading="lazy" alt="" src="docs/assets/img/seperator.svg" />
+
+          <div class="body-container">
+            <div class="body">
+              <div class="project-name-parent">
+                <div class="project-name">01 / RAYTHEON DRONE COMPETITION</div>
+                <div class="goblin-concept-digital">
+                  Autonomous Unmanned Ground Vehicle development to be compete
+                  in Raytheon’s annual drone competition.
+                </div>
+              </div>
+              <div class="sculpted-in-zbrush"></div>
+              <div class="link">Learn more about this project ↗</div>
+              <div class="thumbnail"></div>
+              <div class="seperator-wrapper">
+                <div class="seperator"></div>
+              </div>
+            </div>
+            <img
+              class="screenshot-2024-06-21-at-344"
+              loading="lazy"
+              alt=""
+              src="docs/assets/img/ugv.png"
+            />
+          </div>
+        </section>
+        <section class="body-parent">
+          <div class="body1">
+            <div class="frame-parent">
+              <div class="frame-group">
+                <div class="project-name-group">
+                  <div class="project-name1">
+                    02 / Air Quality Monitoring System
+                  </div>
+                  <div class="subsurface-weight-specular">
+                    Internet of Things system fully hosted on Raspberry Pi’s.
+                  </div>
+                </div>
+                <div class="link1">Discover more →</div>
+              </div>
+              <div class="thumbnail1"></div>
+            </div>
+            <div class="seperator1"></div>
+          </div>
+          <img
+            class="t725-1-icon"
+            loading="lazy"
+            alt=""
+            src="docs/assets/img/pi.png"
+          />
+        </section>
+        <section class="body2">
+          <div class="project-name-container">
+            <div class="project-name2">03 / RL for Building Emissions</div>
+            <div class="experimental-creature-modeling">
+              RL algorithm to train buildings to reduce greenhouse gas
+              emissions.
             </div>
           </div>
-          <img class="img" src="/docs/assets/img/screenshot-2024-06-12-at-1-07-1.png" />
-          <img class="t" src="/docs/assets/img/t725-1.png" />
+          <div class="link2">Learn more about this project ↗</div>
+          <div class="thumbnail2"></div>
+          <div class="seperator-container">
+            <div class="seperator2"></div>
+          </div>
+        </section>
+      </main>
+      <img
+        class="screenshot-2024-06-12-at-107"
+        loading="lazy"
+        alt=""
+        src="docs/assets/img/rl-model.png"
+      />
+
+      <div class="footer">
+        <div class="manue-alaimo-container">
+          <p class="manue-alaimo">Manue Alaimo ⏤ 2024</p>
         </div>
-        <footer class="footer">
-          <div class="text-wrapper-3">Manue Alaimo ⏤ 2024</div>
-          <div class="text-wrapper-4">Linkedin</div>
-          <div class="text-wrapper-5">Github</div>
-        </footer>
+        <div class="social-links">
+          <div class="linkedin">Linkedin</div>
+          <div class="github">Github</div>
+        </div>
       </div>
     </div>
   </body>
