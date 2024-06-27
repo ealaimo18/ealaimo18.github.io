@@ -183,23 +183,10 @@
 
 .portfolio-work-page .info {
   position: absolute;
-  width: 1144px;
+  width: 1136px;
   height: 1613px;
   top: 735px;
   left: 174px;
-}
-
-.portfolio-work-page .UGV {
-  position: absolute;
-  width: 1134px;
-  height: 473px;
-  top: 0;
-  left: 0;
-}
-
-.portfolio-work-page .overlap-group {
-  position: relative;
-  height: 473px;
 }
 
 .portfolio-work-page .body {
@@ -215,7 +202,7 @@
   width: 326px;
   top: -1px;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: var(--main-black);
   font-size: 18px;
@@ -254,6 +241,14 @@
   font-style: var(--sub-header-link-font-style);
 }
 
+.portfolio-work-page .thumbnail {
+  position: absolute;
+  width: 640px;
+  height: 365px;
+  top: 0;
+  left: 480px;
+}
+
 .portfolio-work-page .seperator {
   position: absolute;
   width: 1115px;
@@ -262,71 +257,18 @@
   left: 8px;
 }
 
-.portfolio-work-page .ugv-png {
-  position: absolute;
-  width: 635px;
-  height: 358px;
-  top: 0;
-  left: 499px;
-  object-fit: cover;
-}
-
-.portfolio-work-page .IOT {
-  position: absolute;
-  width: 1128px;
-  height: 473px;
+.portfolio-work-page .body-2 {
   top: 569px;
   left: 8px;
-}
-
-.portfolio-work-page .p {
-  position: absolute;
-  width: 356px;
-  top: 43px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: var(--main-black);
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  line-height: 21.9px;
-}
-
-.portfolio-work-page .pi-png {
-  position: absolute;
-  width: 640px;
-  height: 365px;
-  top: 0;
-  left: 488px;
-  object-fit: cover;
-}
-
-.portfolio-work-page .RL {
-  position: absolute;
-  width: 1128px;
-  height: 475px;
-  top: 1138px;
-  left: 16px;
-}
-
-.portfolio-work-page .overlap {
-  position: relative;
-  height: 475px;
-}
-
-.portfolio-work-page .body-2 {
   position: absolute;
   width: 1120px;
   height: 473px;
-  top: 2px;
-  left: 0;
 }
 
-.portfolio-work-page .rl-model-png {
+.portfolio-work-page .body-3 {
+  top: 1140px;
+  left: 16px;
   position: absolute;
-  width: 640px;
-  height: 367px;
-  top: 0;
-  left: 488px;
-  object-fit: cover;
+  width: 1120px;
+  height: 473px;
 }
