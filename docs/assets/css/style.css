@@ -808,3 +808,327 @@
   line-height: var(--body-line-height);
   font-style: var(--body-font-style);
 }
+.portfolio-project {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio-project .div {
+  background-color: #f3f3f3;
+  width: 1440px;
+  height: 3742px;
+  position: relative;
+}
+
+.portfolio-project .navigation-bar {
+  position: absolute;
+  width: 1120px;
+  height: 35px;
+  top: 102px;
+  left: 160px;
+}
+
+.portfolio-project .site-logo {
+  position: absolute;
+  width: 67px;
+  height: 23px;
+  top: 10px;
+  left: 0;
+}
+
+.portfolio-project .menu {
+  position: absolute;
+  width: 408px;
+  height: 20px;
+  top: 13px;
+  left: 712px;
+}
+
+.portfolio-project .about {
+  position: absolute;
+  width: 59px;
+  height: 20px;
+  top: 0;
+  left: 104px;
+}
+
+.portfolio-project .text-wrapper {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: var(--navigation-font-family);
+  font-weight: var(--navigation-font-weight);
+  color: var(--main-black);
+  font-size: var(--navigation-font-size);
+  letter-spacing: var(--navigation-letter-spacing);
+  line-height: var(--navigation-line-height);
+  white-space: nowrap;
+  font-style: var(--navigation-font-style);
+}
+
+.portfolio-project .contact {
+  position: absolute;
+  width: 77px;
+  height: 20px;
+  top: 0;
+  left: 331px;
+}
+
+.portfolio-project .projects {
+  position: absolute;
+  width: 104px;
+  height: 20px;
+  top: 0;
+  left: 214px;
+}
+
+.portfolio-project .projects-wrapper {
+  width: 104px;
+  height: 20px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.portfolio-project .headline {
+  position: absolute;
+  width: 480px;
+  height: 130px;
+  top: 322px;
+  left: 160px;
+}
+
+.portfolio-project .image {
+  position: absolute;
+  width: 34px;
+  height: 38px;
+  top: 92px;
+  left: 0;
+}
+
+.portfolio-project .text-wrapper-2 {
+  position: absolute;
+  width: 480px;
+  top: -12px;
+  left: 0;
+  font-family: var(--heading-1-font-family);
+  font-weight: var(--heading-1-font-weight);
+  color: var(--main-black);
+  font-size: var(--heading-1-font-size);
+  letter-spacing: var(--heading-1-letter-spacing);
+  line-height: var(--heading-1-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-1-font-style);
+}
+
+.portfolio-project .footer {
+  position: absolute;
+  width: 1120px;
+  height: 20px;
+  top: 3688px;
+  left: 184px;
+  background-color: transparent;
+}
+
+.portfolio-project .text-wrapper-3 {
+  position: absolute;
+  width: 271px;
+  top: -1px;
+  left: 0;
+  font-family: var(--navigation-font-family);
+  font-weight: var(--navigation-font-weight);
+  color: var(--secondary);
+  font-size: var(--navigation-font-size);
+  letter-spacing: var(--navigation-letter-spacing);
+  line-height: var(--navigation-line-height);
+  white-space: nowrap;
+  font-style: var(--navigation-font-style);
+}
+
+.portfolio-project .text-wrapper-4 {
+  position: absolute;
+  width: 98px;
+  top: -1px;
+  left: 921px;
+  font-family: var(--navigation-font-family);
+  font-weight: var(--navigation-font-weight);
+  color: var(--main-black);
+  font-size: var(--navigation-font-size);
+  letter-spacing: var(--navigation-letter-spacing);
+  line-height: var(--navigation-line-height);
+  white-space: nowrap;
+  font-style: var(--navigation-font-style);
+}
+
+.portfolio-project .text-wrapper-5 {
+  position: absolute;
+  width: 69px;
+  top: -1px;
+  left: 1051px;
+  font-family: var(--navigation-font-family);
+  font-weight: var(--navigation-font-weight);
+  color: var(--main-black);
+  font-size: var(--navigation-font-size);
+  letter-spacing: var(--navigation-letter-spacing);
+  line-height: var(--navigation-line-height);
+  white-space: nowrap;
+  font-style: var(--navigation-font-style);
+}
+
+.portfolio-project .overlap {
+  height: 492px;
+  top: 3139px;
+  left: 176px;
+  position: absolute;
+  width: 1120px;
+}
+
+.portfolio-project .news {
+  position: absolute;
+  width: 217px;
+  height: 463px;
+  top: 0;
+  left: 695px;
+  object-fit: cover;
+}
+
+.portfolio-project .body {
+  position: absolute;
+  width: 1120px;
+  height: 473px;
+  top: 19px;
+  left: 0;
+}
+
+.portfolio-project .element-PROJECT-NAME {
+  position: absolute;
+  width: 326px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--main-black);
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  line-height: 21.9px;
+  white-space: nowrap;
+}
+
+.portfolio-project .p {
+  position: absolute;
+  width: 356px;
+  top: 43px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--main-black);
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  line-height: 21.9px;
+}
+
+.portfolio-project .link {
+  position: absolute;
+  width: 326px;
+  top: 346px;
+  left: 0;
+  font-family: var(--sub-header-link-font-family);
+  font-weight: var(--sub-header-link-font-weight);
+  color: var(--main-black);
+  font-size: var(--sub-header-link-font-size);
+  letter-spacing: var(--sub-header-link-letter-spacing);
+  line-height: var(--sub-header-link-line-height);
+  text-decoration: underline;
+  white-space: nowrap;
+  font-style: var(--sub-header-link-font-style);
+}
+
+.portfolio-project .seperator {
+  position: absolute;
+  width: 1092px;
+  height: 2px;
+  top: 472px;
+  left: 8px;
+}
+
+.portfolio-project .overlap-group {
+  height: 491px;
+  top: 2104px;
+  left: 160px;
+  position: absolute;
+  width: 1120px;
+}
+
+.portfolio-project .wizard {
+  position: absolute;
+  width: 275px;
+  height: 461px;
+  top: 0;
+  left: 662px;
+  object-fit: cover;
+}
+
+.portfolio-project .body-2 {
+  top: 18px;
+  left: 0;
+  position: absolute;
+  width: 1120px;
+  height: 473px;
+}
+
+.portfolio-project .body-3 {
+  top: 2640px;
+  left: 168px;
+  position: absolute;
+  width: 1120px;
+  height: 473px;
+}
+
+.portfolio-project .thumbnail {
+  position: absolute;
+  width: 640px;
+  height: 365px;
+  top: 0;
+  left: 480px;
+}
+
+.portfolio-project .body-4 {
+  top: 568px;
+  left: 160px;
+  position: absolute;
+  width: 1120px;
+  height: 473px;
+}
+
+.portfolio-project .goblin-concept {
+  position: absolute;
+  width: 356px;
+  top: 43px;
+  left: 0;
+  font-family: var(--body-font-family);
+  font-weight: var(--body-font-weight);
+  color: var(--main-black);
+  font-size: var(--body-font-size);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  font-style: var(--body-font-style);
+}
+
+.portfolio-project .body-5 {
+  top: 1086px;
+  left: 168px;
+  position: absolute;
+  width: 1120px;
+  height: 473px;
+}
+
+.portfolio-project .body-6 {
+  top: 1604px;
+  left: 160px;
+  position: absolute;
+  width: 1120px;
+  height: 473px;
+}
