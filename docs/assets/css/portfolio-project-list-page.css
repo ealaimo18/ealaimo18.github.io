@@ -94,14 +94,6 @@
   width: 1120px;
   height: 35px;
 }
-.frame1 {
-  position: absolute;
-  top: 322px;
-  left: 160px;
-  width: 1147px;
-  height: 3555px;
-  overflow: hidden;
-}
 .manue-alaimo10 {
   margin: 0;
 }
@@ -670,8 +662,8 @@
   position: absolute;
 }
 .frame2 {
-  top: 550px;
-  left: 160px;
+  top: 228px;
+  left: 0;
   width: 1147px;
   height: 3327px;
   overflow: hidden;
@@ -697,10 +689,18 @@
   height: 65px;
 }
 .headline {
-  top: 322px;
-  left: 160px;
+  top: 0;
+  left: 0;
   height: 130px;
   font-size: var(--heading-1-size);
+}
+.frame1 {
+  position: absolute;
+  top: 322px;
+  left: 160px;
+  width: 1147px;
+  height: 3555px;
+  overflow: hidden;
 }
 .portfolio-project-list-page {
   width: 100%;
