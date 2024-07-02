@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="docs/assets/css/globals.css" />
+    <link rel="stylesheet" href="docs/assets/css/styleguide.css" />
+    <link rel="stylesheet" href="docs/assets/css/project-03.css" />
+  </head>
+  <body>
+    <div class="portfolio-project">
+      <div class="div">
+        <div class="navigation-bar">
+          <a href = "https://ealaimo18.github.io"><img class="site-logo" src="docs/assets/img/site-logo.svg" /></a>
+          <div class="menu">
+            <a href="about.html"><div class="about"><div class="text-wrapper">About</div></div></a>
+            <a href = "contact.html"><div class="contact"><div class="text-wrapper">Contact</div></div></a>
+            <a href ="project-list.html"><div class="projects"><div class="text-wrapper">Projects</div></div></a>
+            <a href = "https://ealaimo18.github.io"><div class="projects-wrapper"><div class="text-wrapper">Home</div></div></a>
+          </div>
+        </div>
+        <div class="section">
+          <div class="headline">
+            <p class="p">03 / RL for Building Emissions</p>
+            <img class="image" src="docs/assets/img/frame.svg" />
+            <div class="text-wrapper-2">Fall 2023</div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="text-wrapper-3">Manue Alaimo ⏤ 2024</div>
+          <div class="text-wrapper-4">Linkedin</div>
+          <div class="text-wrapper-5">Github</div>
+        </footer>
+        <div class="info">
+          <div class="overlap-group">
+            <div class="text-wrapper-6">Tech Stack</div>
+            <p class="text-wrapper-7">Python, Stable Baseline Package, CityLearn Package</p>
+            <p class="city-learn-challenge">
+              <a
+                href="https://www.aicrowd.com/challenges/neurips-2023-citylearn-challenge"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="span">City Learn Challenge 2023</span></a
+              >
+              <span class="text-wrapper-8">
+                ⏤ Multi-agent reinforcement learning on building controls to reduce greenhouse gas emissions and energy
+                consumption. <br /><br />Developed a new Soft-Actor Critic algorithm for the Agent to learn both on a
+                value and policy based reward system in the environment. <br /><br
+              /></span>
+            </p>
+          </div>
+          <img class="seperator" src="docs/assets/img/seperator.svg" />
+        </div>
+        <div class="body">
+          <div class="building">
+            <img class="building-level-png" src="docs/assets/img/building-level-png.png" />
+            <p class="building-level">
+              <span class="text-wrapper-9">Building Level Performance Indicators<br /><br /><br /></span>
+              <span class="text-wrapper-10"
+                >Individual buildings in the district were able to optimize significantly below the average.
+                <br /><br />Here the blue bar indicates the SAC’s model to reduce the baseline.<br /><br />Each training
+                model was run under a minimum of 45 episodes to provide an ample timeline.<br
+              /></span>
+              <span class="text-wrapper-9"><br /></span>
+            </p>
+          </div>
+          <div class="sac">
+            <p class="trained-soft-actor">
+              <span class="text-wrapper-9">Trained Soft Actor Critic Results<br /><br /></span>
+              <span class="text-wrapper-10"
+                >The upward trending SAC reward results show that the Agent was able to successfully learn with the
+                reward system implemented. <br
+              /></span>
+              <span class="text-wrapper-9"><br /></span>
+            </p>
+            <img class="sac-png" src="docs/assets/img/sac-png.png" />
+          </div>
+          <div class="district">
+            <p class="district-level">
+              <span class="text-wrapper-9">District Level Performance Indicators<br /><br /></span>
+              <span class="text-wrapper-10"
+                >The building efficiency baseline is 1.0, with the objective to approach 0.<br /><br />The SAC deployed
+                improved cost, carbon emissions, electric consumption, and the average electric peak.<br /><br />To
+                achieve this, the SAC was provided with future weather predictions and prioritized a higher state of
+                charge remaining in reserve batteries.&nbsp;&nbsp;<br
+              /></span>
+              <span class="text-wrapper-9"><br /></span>
+            </p>
+            <img class="district-level-png" src="docs/assets/img/district-level-png.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
