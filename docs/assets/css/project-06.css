@@ -280,3 +280,17 @@
   line-height: 29.2px;
   white-space: nowrap;
 }
+
+.portfolio-project .video {
+  position: absolute;
+  width: 305px;
+  top: 1025px;
+  left: 160px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--main-black);
+  font-size: 24px;
+  letter-spacing: -0.72px;
+  line-height: 29.2px;
+  white-space: nowrap;
+}
