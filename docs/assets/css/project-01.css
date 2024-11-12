@@ -308,7 +308,7 @@
   left: 0;
 }
 
-.portfolio-project .group-2 {
+.portfolio-project .group-1 {
   position: absolute;
   width: 1229px;
   height: 566px;
@@ -328,7 +328,7 @@
 .portfolio-project .hardware-design-four {
   position: absolute;
   width: 540px;
-  top: 21px;
+  top:auto;
   left: 687px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
@@ -348,12 +348,12 @@
 }
 
 .portfolio-project .group-3 {
-  position: absolute;
-  width: 1216px;
-  height: 479px;
-  top: 562px;
-  left: 0;
+  display: flex; /* Enables flexbox layout */
+  align-items: flex-end; /* Aligns items to the top */
+  gap: 20px; /* Space between image and text */
 }
+
+
 
 .portfolio-project .ros-png {
   position: absolute;
@@ -367,7 +367,7 @@
 .portfolio-project .software-design-UGV {
   position: absolute;
   width: 524px;
-  top: 0;
+  top:auto;
   left: 690px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
